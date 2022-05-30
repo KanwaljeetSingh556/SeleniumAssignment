@@ -35,7 +35,7 @@ public class DriverSetUp
 	public void GetURL() 
 	{
 		 driver.get(read.ReadData("URL"));
-		 driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("hello google");
+		 
 		
 	}
 	
